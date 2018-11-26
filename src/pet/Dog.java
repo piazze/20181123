@@ -1,5 +1,10 @@
 package pet;
 
+/**
+ * π∑¿‡
+ * @author Administrator
+ *
+ */
 public class Dog extends Pet{
 
 	private String strain;
