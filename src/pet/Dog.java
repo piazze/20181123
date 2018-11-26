@@ -33,4 +33,10 @@ public class Dog extends Pet{
 		System.out.println("昵称：" + super.getName() + ",健康度：" + super.getHealth() + ",亲密度：" + super.getLove() + ",品种：" + this.strain);
 	}
 
+	@Override
+	public String toString() {
+		return "昵称：" + super.getName() + ",健康度：" + super.getHealth() + ",亲密度：" + super.getLove() + ",品种：" + this.strain;
+	}
+
+	
 }
