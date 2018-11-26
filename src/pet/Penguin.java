@@ -1,11 +1,14 @@
 package pet;
 
+/**
+ ä¼é¹…
+*/
 public class Penguin extends Pet {
 
 	public Penguin() {
 		super();
 	}
-	private char sex;  //Æó¶ìÌØÓĞµÄÊôĞÔ
+	private char sex;  //ä¼é¹…ç‰¹æœ‰çš„å±æ€§
 	
 	public char getSex() {
 		return sex;
@@ -16,6 +19,6 @@ public class Penguin extends Pet {
 	
 	@Override
 	public void print() {
-		System.out.println("êÇ³Æ£º" + getName() + ",½¡¿µ¶È£º" + getHealth() + ",Ç×ÃÜ¶È£º" + getLove() + ",ĞÔ±ğ£º" + this.sex);
+		System.out.println("æ˜µç§°ï¼š" + getName() + ",å¥åº·åº¦ï¼š" + getHealth() + ",äº²å¯†åº¦ï¼š" + getLove() + ",æ€§åˆ«ï¼š" + this.sex);
 	}
 }
